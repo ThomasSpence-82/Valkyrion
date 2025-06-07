@@ -58,6 +58,11 @@ x86/
 *.x86_64
 *.hex
 
+# Batch files
+*.bat
+*.cmd
+*.ps1
+
 # Debug files
 *.pdb
 *.idb
@@ -75,10 +80,50 @@ x86/
 # Visual Studio Code
 .vscode/
 
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+Sandbox/Bin/
+Sandbox/Intermediate/
+ValkyrionEngine/Bin/
+ValkyrionEngine/Intermediate/
+*.idb
+*.ilk
+*.exp
+*.manifest
+*.app
+*.i*86
+*.x86_64
+*.hex
+
 # Batch files
 *.bat
 *.cmd
 *.ps1
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.manifest
+*.tlog/
+*.lastbuildstate
+*.filters
+*.VC.*
+*.VC.*
+
+# Visual Studio Code
+.vscode/
 
 # OS generated files
 .DS_Store
